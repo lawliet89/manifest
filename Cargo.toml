@@ -1,0 +1,17 @@
+[package]
+name = "manifest"
+version = "0.1.0"
+authors = ["Yong Wen Chua <me@yongwen.xyz>"]
+
+[[bin]]
+name = "manifest"
+test = true
+
+[dependencies]
+clap = "2.25"
+docker_image = { git = "https://github.com/lawliet89/docker-image", rev = "4059adb96e299522b0e92acb0bd074ce70e21a15" }
+lazy_static = "0.2"
+regex = "0.2"
+serde = "1.0"
+serde_derive = "1.0"
+serde_json = "1.0"
