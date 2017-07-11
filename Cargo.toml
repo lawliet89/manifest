@@ -9,7 +9,7 @@ test = true
 
 [dependencies]
 clap = "2.25"
-docker_image = { git = "https://github.com/lawliet89/docker-image", rev = "4059adb96e299522b0e92acb0bd074ce70e21a15" }
+docker_image = { git = "https://github.com/lawliet89/docker-image", rev = "7e3af50409959a162677dc48c0f034f3e755cc51" }
 lazy_static = "0.2"
 regex = "0.2"
 serde = "1.0"
