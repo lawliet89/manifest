@@ -11,7 +11,7 @@ test = true
 clap = "2.25"
 docker_image = { git = "https://github.com/lawliet89/docker-image", rev = "7e3af50409959a162677dc48c0f034f3e755cc51" }
 lazy_static = "0.2"
-regex = "0.2"
+regex = "1.5"
 serde = "1.0"
 serde_derive = "1.0"
 serde_json = "1.0"
